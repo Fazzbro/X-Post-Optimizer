@@ -1,0 +1,6 @@
+{
+  "name": "Phoenix Content Optimizer",
+  "description": "Transforms short user ideas into highly engaging, algorithm-compliant X posts to maximize out-of-network reach and engagement.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
