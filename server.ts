@@ -73,6 +73,10 @@ async function startServer() {
     res.json({ status: "ok" });
   });
 
+  app.get("/api/readme", (req, res) => {
+    res.sendFile(path.join(process.cwd(), "README.md"));
+  });
+
   app.post("/api/optimize", async (req, res) => {
     try {
       const { idea } = req.body;
